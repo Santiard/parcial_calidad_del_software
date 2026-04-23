@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="68" failures="8" disabled="0" errors="0" time="4.23" timestamp="2026-04-22T20:12:46.340" name="AllTests">
+  <testsuite name="WhiteBoxCalculateOnly" tests="7" failures="1" disabled="0" skipped="1" errors="0" time="0.431" timestamp="2026-04-22T20:12:46.340">
+    <testcase name="Calculate_plus" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp" line="39" status="run" result="completed" time="0.429" timestamp="2026-04-22T20:12:46.340" classname="WhiteBoxCalculateOnly" />
+    <testcase name="Calculate_minus_bySpec_shouldSubtract" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp" line="47" status="run" result="completed" time="0." timestamp="2026-04-22T20:12:46.775" classname="WhiteBoxCalculateOnly">
+      <failure message="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp:52&#x0A;Expected equality of these values:&#x0A;  CalculatorTestAccess::sumSoFar(c)&#x0A;    Which is: 13&#x0A;  7.0&#x0A;    Which is: 7&#x0A;" type=""><![CDATA[C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp:52
+Expected equality of these values:
+  CalculatorTestAccess::sumSoFar(c)
+    Which is: 13
+  7.0
+    Which is: 7
+]]></failure>
+    </testcase>
+    <testcase name="Calculate_minus_currentDefect_adds" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp" line="55" status="run" result="completed" time="0." timestamp="2026-04-22T20:12:46.776" classname="WhiteBoxCalculateOnly" />
+    <testcase name="Calculate_times" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp" line="63" status="run" result="completed" time="0." timestamp="2026-04-22T20:12:46.776" classname="WhiteBoxCalculateOnly" />
+    <testcase name="Calculate_divide_normal" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp" line="71" status="run" result="completed" time="0." timestamp="2026-04-22T20:12:46.776" classname="WhiteBoxCalculateOnly" />
+    <testcase name="Calculate_unknownOperator_noChange" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp" line="79" status="run" result="completed" time="0." timestamp="2026-04-22T20:12:46.776" classname="WhiteBoxCalculateOnly" />
+    <testcase name="Calculate_divideByZero_crash_notAutomated" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp" line="89" status="run" result="skipped" time="0." timestamp="2026-04-22T20:12:46.776" classname="WhiteBoxCalculateOnly">
+      <skipped message="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp:91&#x0A;calculate() llama crashApp(); usar prueba manual o proceso hijo.&#x0A;"><![CDATA[C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp:91
+calculate() llama crashApp(); usar prueba manual o proceso hijo.
+]]></skipped>
+    </testcase>
+  </testsuite>
+  <testsuite name="WhiteBoxUi" tests="9" failures="0" disabled="0" skipped="1" errors="0" time="0.671" timestamp="2026-04-22T20:12:46.776">
+    <testcase name="State_after_5_plus_pendingAndWaiting" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp" line="96" status="run" result="completed" time="0.116" timestamp="2026-04-22T20:12:46.776" classname="WhiteBoxUi" />
+    <testcase name="State_after_3_times_pendingMultiplicative" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp" line="109" status="run" result="completed" time="0.073" timestamp="2026-04-22T20:12:46.893" classname="WhiteBoxUi" />
+    <testcase name="State_calculateCounter_increments_per_operator_click" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp" line="119" status="run" result="completed" time="0.067" timestamp="2026-04-22T20:12:46.968" classname="WhiteBoxUi" />
+    <testcase name="State_calculateCounter_resets_after_equals" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp" line="129" status="run" result="completed" time="0.071" timestamp="2026-04-22T20:12:47.034" classname="WhiteBoxUi" />
+    <testcase name="State_memory_MS_stores_sumInMemory" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp" line="139" status="run" result="completed" time="0.063" timestamp="2026-04-22T20:12:47.106" classname="WhiteBoxUi" />
+    <testcase name="State_memory_MC_zeroes_sumInMemory" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp" line="147" status="run" result="completed" time="0.058" timestamp="2026-04-22T20:12:47.170" classname="WhiteBoxUi" />
+    <testcase name="State_after_clearAll_pendingCleared" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp" line="156" status="run" result="completed" time="0.07" timestamp="2026-04-22T20:12:47.229" classname="WhiteBoxUi" />
+    <testcase name="Structural_equalClicked_guard_counter_gt2_not_run_here" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp" line="168" status="run" result="skipped" time="0.073" timestamp="2026-04-22T20:12:47.299" classname="WhiteBoxUi">
+      <skipped message="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp:170&#x0A;equalClicked() con calculateCounter&gt;2 llama crashApp(); ver prueba manual.&#x0A;"><![CDATA[C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp:170
+equalClicked() con calculateCounter>2 llama crashApp(); ver prueba manual.
+]]></skipped>
+    </testcase>
+    <testcase name="Branch_additive_flushes_pending_multiplicative_first" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_whitebox_comprehensive.cpp" line="175" status="run" result="completed" time="0.075" timestamp="2026-04-22T20:12:47.373" classname="WhiteBoxUi" />
+  </testsuite>
+  <testsuite name="BlackBoxUi" tests="42" failures="6" disabled="0" skipped="5" errors="0" time="2.567" timestamp="2026-04-22T20:12:47.449">
+    <testcase name="Digit0_initialState_secondZeroIgnored" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="34" status="run" result="completed" time="0.082" timestamp="2026-04-22T20:12:47.449" classname="BlackBoxUi" />
+    <testcase name="Digit0_afterFive_appendsZero" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="41" status="run" result="completed" time="0.068" timestamp="2026-04-22T20:12:47.532" classname="BlackBoxUi" />
+    <testcase name="MultiDigit_123" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="49" status="run" result="completed" time="0.052" timestamp="2026-04-22T20:12:47.600" classname="BlackBoxUi" />
+    <testcase name="Add_2_plus_3_equals_5" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="70" status="run" result="completed" time="0.057" timestamp="2026-04-22T20:12:47.652" classname="BlackBoxUi" />
+    <testcase name="Add_chain_1_plus_2_plus_3_equals_6" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="80" status="run" result="completed" time="0.049" timestamp="2026-04-22T20:12:47.710" classname="BlackBoxUi" />
+    <testcase name="Add_negative_left_minus2_plus_5_equals_3" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="92" status="run" result="completed" time="0.063" timestamp="2026-04-22T20:12:47.760" classname="BlackBoxUi" />
+    <testcase name="Subtract_5_minus_2_equals_3_spec" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="103" status="run" result="completed" time="0.061" timestamp="2026-04-22T20:12:47.823" classname="BlackBoxUi">
+      <failure message="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:110&#x0A;Expected equality of these values:&#x0A;  readDisplay(*calc)&#x0A;    Which is: { 2-byte object &lt;37-00&gt; }&#x0A;  ([]() noexcept -&gt; QString { enum { Size = sizeof(u&quot;&quot; &quot;3&quot;)/2 - 1 }; static const QStaticStringData&lt;Size&gt; qstring_literal = { { { { -1 } }, Size, 0, 0, sizeof(QStringData) }, u&quot;&quot; &quot;3&quot; }; QStringDataPtr holder = { qstring_literal.data_ptr() }; return QString(holder); }())&#x0A;    Which is: { 2-byte object &lt;33-00&gt; }&#x0A;" type=""><![CDATA[C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:110
+Expected equality of these values:
+  readDisplay(*calc)
+    Which is: { 2-byte object <37-00> }
+  ([]() noexcept -> QString { enum { Size = sizeof(u"" "3")/2 - 1 }; static const QStaticStringData<Size> qstring_literal = { { { { -1 } }, Size, 0, 0, sizeof(QStringData) }, u"" "3" }; QStringDataPtr holder = { qstring_literal.data_ptr() }; return QString(holder); }())
+    Which is: { 2-byte object <33-00> }
+]]></failure>
+    </testcase>
+    <testcase name="Subtract_2_minus_5_equals_neg3_spec" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="113" status="run" result="completed" time="0.058" timestamp="2026-04-22T20:12:47.885" classname="BlackBoxUi">
+      <failure message="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:120&#x0A;Expected equality of these values:&#x0A;  readDisplay(*calc)&#x0A;    Which is: { 2-byte object &lt;37-00&gt; }&#x0A;  ([]() noexcept -&gt; QString { enum { Size = sizeof(u&quot;&quot; &quot;-3&quot;)/2 - 1 }; static const QStaticStringData&lt;Size&gt; qstring_literal = { { { { -1 } }, Size, 0, 0, sizeof(QStringData) }, u&quot;&quot; &quot;-3&quot; }; QStringDataPtr holder = { qstring_literal.data_ptr() }; return QString(holder); }())&#x0A;    Which is: { 2-byte object &lt;2D-00&gt;, 2-byte object &lt;33-00&gt; }&#x0A;" type=""><![CDATA[C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:120
+Expected equality of these values:
+  readDisplay(*calc)
+    Which is: { 2-byte object <37-00> }
+  ([]() noexcept -> QString { enum { Size = sizeof(u"" "-3")/2 - 1 }; static const QStaticStringData<Size> qstring_literal = { { { { -1 } }, Size, 0, 0, sizeof(QStringData) }, u"" "-3" }; QStringDataPtr holder = { qstring_literal.data_ptr() }; return QString(holder); }())
+    Which is: { 2-byte object <2D-00>, 2-byte object <33-00> }
+]]></failure>
+    </testcase>
+    <testcase name="Multiply_4_times_5_equals_20" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="123" status="run" result="completed" time="0.056" timestamp="2026-04-22T20:12:47.942" classname="BlackBoxUi" />
+    <testcase name="Multiply_chain_2_times_3_times_4_equals_24" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="133" status="run" result="completed" time="0.071" timestamp="2026-04-22T20:12:47.999" classname="BlackBoxUi" />
+    <testcase name="Divide_10_div_2_equals_5" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="145" status="run" result="completed" time="0.081" timestamp="2026-04-22T20:12:48.071" classname="BlackBoxUi" />
+    <testcase name="Divide_7_div_2_decimal_spec" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="155" status="run" result="completed" time="0.067" timestamp="2026-04-22T20:12:48.152" classname="BlackBoxUi" />
+    <testcase name="Mixed_precedence_2_plus_3_times_4_equals_14_gui_order" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="165" status="run" result="completed" time="0.059" timestamp="2026-04-22T20:12:48.219" classname="BlackBoxUi" />
+    <testcase name="Add_then_multiply_1_plus_2_times_3_equals_7" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="177" status="run" result="completed" time="0.072" timestamp="2026-04-22T20:12:48.279" classname="BlackBoxUi" />
+    <testcase name="Decimal_point_from_waiting_shows_zeroPoint" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="192" status="run" result="completed" time="0.074" timestamp="2026-04-22T20:12:48.352" classname="BlackBoxUi" />
+    <testcase name="Decimal_2_dot_5_plus_0_dot_5_equals_3" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="199" status="run" result="completed" time="0.066" timestamp="2026-04-22T20:12:48.426" classname="BlackBoxUi" />
+    <testcase name="Decimal_secondDot_ignored" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="213" status="run" result="completed" time="0.064" timestamp="2026-04-22T20:12:48.492" classname="BlackBoxUi" />
+    <testcase name="Sign_positive_to_negative" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="226" status="run" result="completed" time="0.066" timestamp="2026-04-22T20:12:48.556" classname="BlackBoxUi" />
+    <testcase name="Sign_negative_to_positive" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="234" status="run" result="completed" time="0.059" timestamp="2026-04-22T20:12:48.623" classname="BlackBoxUi" />
+    <testcase name="Sign_zero_unchanged_spec" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="243" status="run" result="completed" time="0.047" timestamp="2026-04-22T20:12:48.683" classname="BlackBoxUi" />
+    <testcase name="LabeledBackspace_shouldDeleteLastDigit_spec" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="253" status="run" result="completed" time="0.05" timestamp="2026-04-22T20:12:48.731" classname="BlackBoxUi">
+      <failure message="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:258&#x0A;Expected equality of these values:&#x0A;  readDisplay(*calc)&#x0A;    Which is: { 2-byte object &lt;30-00&gt; }&#x0A;  ([]() noexcept -&gt; QString { enum { Size = sizeof(u&quot;&quot; &quot;122&quot;)/2 - 1 }; static const QStaticStringData&lt;Size&gt; qstring_literal = { { { { -1 } }, Size, 0, 0, sizeof(QStringData) }, u&quot;&quot; &quot;122&quot; }; QStringDataPtr holder = { qstring_literal.data_ptr() }; return QString(holder); }())&#x0A;    Which is: { 2-byte object &lt;31-00&gt;, 2-byte object &lt;32-00&gt;, 2-byte object &lt;32-00&gt; }&#x0A;" type=""><![CDATA[C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:258
+Expected equality of these values:
+  readDisplay(*calc)
+    Which is: { 2-byte object <30-00> }
+  ([]() noexcept -> QString { enum { Size = sizeof(u"" "122")/2 - 1 }; static const QStaticStringData<Size> qstring_literal = { { { { -1 } }, Size, 0, 0, sizeof(QStringData) }, u"" "122" }; QStringDataPtr holder = { qstring_literal.data_ptr() }; return QString(holder); }())
+    Which is: { 2-byte object <31-00>, 2-byte object <32-00>, 2-byte object <32-00> }
+]]></failure>
+    </testcase>
+    <testcase name="LabeledClear_shouldResetCurrentEntry_spec" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="261" status="run" result="completed" time="0.068" timestamp="2026-04-22T20:12:48.781" classname="BlackBoxUi">
+      <failure message="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:266&#x0A;Expected equality of these values:&#x0A;  readDisplay(*calc)&#x0A;    Which is: { 2-byte object &lt;31-00&gt;, 2-byte object &lt;32-00&gt; }&#x0A;  ([]() noexcept -&gt; QString { enum { Size = sizeof(u&quot;&quot; &quot;0&quot;)/2 - 1 }; static const QStaticStringData&lt;Size&gt; qstring_literal = { { { { -1 } }, Size, 0, 0, sizeof(QStringData) }, u&quot;&quot; &quot;0&quot; }; QStringDataPtr holder = { qstring_literal.data_ptr() }; return QString(holder); }())&#x0A;    Which is: { 2-byte object &lt;30-00&gt; }&#x0A;" type=""><![CDATA[C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:266
+Expected equality of these values:
+  readDisplay(*calc)
+    Which is: { 2-byte object <31-00>, 2-byte object <32-00> }
+  ([]() noexcept -> QString { enum { Size = sizeof(u"" "0")/2 - 1 }; static const QStaticStringData<Size> qstring_literal = { { { { -1 } }, Size, 0, 0, sizeof(QStringData) }, u"" "0" }; QStringDataPtr holder = { qstring_literal.data_ptr() }; return QString(holder); }())
+    Which is: { 2-byte object <30-00> }
+]]></failure>
+    </testcase>
+    <testcase name="ClearAll_resetsToZero" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="269" status="run" result="completed" time="0.056" timestamp="2026-04-22T20:12:48.850" classname="BlackBoxUi" />
+    <testcase name="ClearAll_then_add_startsFresh" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="277" status="run" result="completed" time="0.069" timestamp="2026-04-22T20:12:48.906" classname="BlackBoxUi" />
+    <testcase name="Memory_MS_MR_roundtrip_spec" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="293" status="run" result="completed" time="0.063" timestamp="2026-04-22T20:12:48.975" classname="BlackBoxUi" />
+    <testcase name="Memory_MC_clears_then_MR_zero" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="303" status="run" result="completed" time="0.078" timestamp="2026-04-22T20:12:49.039" classname="BlackBoxUi" />
+    <testcase name="Memory_Mplus_accumulates_spec" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="313" status="run" result="completed" time="0.062" timestamp="2026-04-22T20:12:49.117" classname="BlackBoxUi" />
+    <testcase name="Memory_MS_after_expression_5_plus_5_equals_10" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="324" status="run" result="completed" time="0.065" timestamp="2026-04-22T20:12:49.181" classname="BlackBoxUi" />
+    <testcase name="Unary_x_squared_3_equals_9" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="339" status="run" result="completed" time="0.062" timestamp="2026-04-22T20:12:49.246" classname="BlackBoxUi" />
+    <testcase name="Unary_inv_4_equals_0_25" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="347" status="run" result="completed" time="0.06" timestamp="2026-04-22T20:12:49.309" classname="BlackBoxUi" />
+    <testcase name="Unary_inv_zero_shows_error_spec" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="355" status="run" result="completed" time="0.047" timestamp="2026-04-22T20:12:49.370" classname="BlackBoxUi" />
+    <testcase name="Unary_sqrt_9_equals_3_spec" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="363" status="run" result="completed" time="0.057" timestamp="2026-04-22T20:12:49.417" classname="BlackBoxUi">
+      <failure message="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:368&#x0A;Expected equality of these values:&#x0A;  readDisplay(*calc)&#x0A;    Which is: { 2-byte object &lt;39-00&gt; }&#x0A;  ([]() noexcept -&gt; QString { enum { Size = sizeof(u&quot;&quot; &quot;3&quot;)/2 - 1 }; static const QStaticStringData&lt;Size&gt; qstring_literal = { { { { -1 } }, Size, 0, 0, sizeof(QStringData) }, u&quot;&quot; &quot;3&quot; }; QStringDataPtr holder = { qstring_literal.data_ptr() }; return QString(holder); }())&#x0A;    Which is: { 2-byte object &lt;33-00&gt; }&#x0A;" type=""><![CDATA[C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:368
+Expected equality of these values:
+  readDisplay(*calc)
+    Which is: { 2-byte object <39-00> }
+  ([]() noexcept -> QString { enum { Size = sizeof(u"" "3")/2 - 1 }; static const QStaticStringData<Size> qstring_literal = { { { { -1 } }, Size, 0, 0, sizeof(QStringData) }, u"" "3" }; QStringDataPtr holder = { qstring_literal.data_ptr() }; return QString(holder); }())
+    Which is: { 2-byte object <33-00> }
+]]></failure>
+    </testcase>
+    <testcase name="Unary_sqrt_negative_shows_error_spec" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="371" status="run" result="completed" time="0.054" timestamp="2026-04-22T20:12:49.475" classname="BlackBoxUi">
+      <failure message="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:377&#x0A;Expected equality of these values:&#x0A;  readDisplay(*calc)&#x0A;    Which is: { 2-byte object &lt;2D-00&gt;, 2-byte object &lt;39-00&gt; }&#x0A;  ([]() noexcept -&gt; QString { enum { Size = sizeof(u&quot;&quot; &quot;####&quot;)/2 - 1 }; static const QStaticStringData&lt;Size&gt; qstring_literal = { { { { -1 } }, Size, 0, 0, sizeof(QStringData) }, u&quot;&quot; &quot;####&quot; }; QStringDataPtr holder = { qstring_literal.data_ptr() }; return QString(holder); }())&#x0A;    Which is: { 2-byte object &lt;23-00&gt;, 2-byte object &lt;23-00&gt;, 2-byte object &lt;23-00&gt;, 2-byte object &lt;23-00&gt; }&#x0A;" type=""><![CDATA[C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:377
+Expected equality of these values:
+  readDisplay(*calc)
+    Which is: { 2-byte object <2D-00>, 2-byte object <39-00> }
+  ([]() noexcept -> QString { enum { Size = sizeof(u"" "####")/2 - 1 }; static const QStaticStringData<Size> qstring_literal = { { { { -1 } }, Size, 0, 0, sizeof(QStringData) }, u"" "####" }; QStringDataPtr holder = { qstring_literal.data_ptr() }; return QString(holder); }())
+    Which is: { 2-byte object <23-00>, 2-byte object <23-00>, 2-byte object <23-00>, 2-byte object <23-00> }
+]]></failure>
+    </testcase>
+    <testcase name="AfterEquals_digit_replacesResult" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="382" status="run" result="completed" time="0.054" timestamp="2026-04-22T20:12:49.529" classname="BlackBoxUi" />
+    <testcase name="Display_maxLength_15_digits_noLonger" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="393" status="run" result="completed" time="0.051" timestamp="2026-04-22T20:12:49.583" classname="BlackBoxUi" />
+    <testcase name="Zero_plus_zero_equals_zero" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="403" status="run" result="completed" time="0.053" timestamp="2026-04-22T20:12:49.634" classname="BlackBoxUi" />
+    <testcase name="Zero_divided_by_5_equals_zero" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="413" status="run" result="completed" time="0.048" timestamp="2026-04-22T20:12:49.688" classname="BlackBoxUi" />
+    <testcase name="NoConsoleParser_lettersNotApplicable" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="425" status="run" result="skipped" time="0.055" timestamp="2026-04-22T20:12:49.737" classname="BlackBoxUi">
+      <skipped message="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:427&#x0A;No hay entrada de texto tipo consola; letras/símbolos no son introducibles por teclado en esta app.&#x0A;"><![CDATA[C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:427
+No hay entrada de texto tipo consola; letras/símbolos no son introducibles por teclado en esta app.
+]]></skipped>
+    </testcase>
+    <testcase name="Divide_by_zero_manual_only" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="432" status="run" result="skipped" time="0.055" timestamp="2026-04-22T20:12:49.792" classname="BlackBoxUi">
+      <skipped message="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:434&#x0A;División por cero provoca crash intencional; probar manualmente o con proceso hijo.&#x0A;"><![CDATA[C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:434
+División por cero provoca crash intencional; probar manualmente o con proceso hijo.
+]]></skipped>
+    </testcase>
+    <testcase name="Long_press_any_key_manual_only" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="437" status="run" result="skipped" time="0.053" timestamp="2026-04-22T20:12:49.846" classname="BlackBoxUi">
+      <skipped message="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:439&#x0A;Pulsación larga provoca crash; solo manual o automatización de bajo nivel.&#x0A;"><![CDATA[C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:439
+Pulsación larga provoca crash; solo manual o automatización de bajo nivel.
+]]></skipped>
+    </testcase>
+    <testcase name="Double_click_window_manual_only" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="442" status="run" result="skipped" time="0.055" timestamp="2026-04-22T20:12:49.901" classname="BlackBoxUi">
+      <skipped message="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:444&#x0A;Doble clic en ventana provoca crash; solo manual.&#x0A;"><![CDATA[C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:444
+Doble clic en ventana provoca crash; solo manual.
+]]></skipped>
+    </testcase>
+    <testcase name="Three_operator_then_equal_crash_manual_only" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="447" status="run" result="skipped" time="0.061" timestamp="2026-04-22T20:12:49.956" classname="BlackBoxUi">
+      <skipped message="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:449&#x0A;Más de dos operadores seguidos y &apos;=&apos; provoca crash; solo manual o proceso hijo.&#x0A;"><![CDATA[C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:449
+Más de dos operadores seguidos y '=' provoca crash; solo manual o proceso hijo.
+]]></skipped>
+    </testcase>
+  </testsuite>
+  <testsuite name="AllDigits0to9/BlackBoxDigitParam" tests="10" failures="1" disabled="0" skipped="0" errors="0" time="0.558" timestamp="2026-04-22T20:12:50.017">
+    <testcase name="SingleDigit_display_matches_spec/0" value_param="0" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="58" status="run" result="completed" time="0.064" timestamp="2026-04-22T20:12:50.017" classname="AllDigits0to9/BlackBoxDigitParam" />
+    <testcase name="SingleDigit_display_matches_spec/1" value_param="1" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="58" status="run" result="completed" time="0.059" timestamp="2026-04-22T20:12:50.082" classname="AllDigits0to9/BlackBoxDigitParam" />
+    <testcase name="SingleDigit_display_matches_spec/2" value_param="2" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="58" status="run" result="completed" time="0.057" timestamp="2026-04-22T20:12:50.140" classname="AllDigits0to9/BlackBoxDigitParam" />
+    <testcase name="SingleDigit_display_matches_spec/3" value_param="3" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="58" status="run" result="completed" time="0.056" timestamp="2026-04-22T20:12:50.197" classname="AllDigits0to9/BlackBoxDigitParam" />
+    <testcase name="SingleDigit_display_matches_spec/4" value_param="4" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="58" status="run" result="completed" time="0.054" timestamp="2026-04-22T20:12:50.254" classname="AllDigits0to9/BlackBoxDigitParam" />
+    <testcase name="SingleDigit_display_matches_spec/5" value_param="5" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="58" status="run" result="completed" time="0.049" timestamp="2026-04-22T20:12:50.308" classname="AllDigits0to9/BlackBoxDigitParam" />
+    <testcase name="SingleDigit_display_matches_spec/6" value_param="6" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="58" status="run" result="completed" time="0.056" timestamp="2026-04-22T20:12:50.359" classname="AllDigits0to9/BlackBoxDigitParam" />
+    <testcase name="SingleDigit_display_matches_spec/7" value_param="7" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="58" status="run" result="completed" time="0.06" timestamp="2026-04-22T20:12:50.415" classname="AllDigits0to9/BlackBoxDigitParam" />
+    <testcase name="SingleDigit_display_matches_spec/8" value_param="8" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="58" status="run" result="completed" time="0.048" timestamp="2026-04-22T20:12:50.476" classname="AllDigits0to9/BlackBoxDigitParam">
+      <failure message="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:63&#x0A;Expected equality of these values:&#x0A;  readDisplay(*calc)&#x0A;    Which is: { 2-byte object &lt;38-00&gt;, 2-byte object &lt;38-00&gt; }&#x0A;  QString::number(d)&#x0A;    Which is: { 2-byte object &lt;38-00&gt; }&#x0A;" type=""><![CDATA[C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp:63
+Expected equality of these values:
+  readDisplay(*calc)
+    Which is: { 2-byte object <38-00>, 2-byte object <38-00> }
+  QString::number(d)
+    Which is: { 2-byte object <38-00> }
+]]></failure>
+    </testcase>
+    <testcase name="SingleDigit_display_matches_spec/9" value_param="9" file="C:\Users\JAAL\Documents\parcial_calidad_del_software\tests\test_blackbox_comprehensive.cpp" line="58" status="run" result="completed" time="0.051" timestamp="2026-04-22T20:12:50.524" classname="AllDigits0to9/BlackBoxDigitParam" />
+  </testsuite>
+</testsuites>

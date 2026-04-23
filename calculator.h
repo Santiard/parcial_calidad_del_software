@@ -46,12 +46,23 @@
 QT_BEGIN_NAMESPACE
 class QLineEdit;
 QT_END_NAMESPACE
+class QMouseEvent;
 class Button;
+
+#ifdef BUGGY_CALCULATOR_TESTING
+namespace buggy_calc_test {
+class CalculatorTestAccess;
+}
+#endif
 
 //! [0]
 class Calculator : public QWidget
 {
     Q_OBJECT
+
+#ifdef BUGGY_CALCULATOR_TESTING
+    friend class buggy_calc_test::CalculatorTestAccess;
+#endif
 
 public:
     Calculator(QWidget *parent = 0);

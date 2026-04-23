@@ -36,6 +36,10 @@ Makefile*
 # QtCtreator CMake
 CMakeLists.txt.user
 
+# Salidas locales de pruebas
+tests/test_results.txt
+tests/gtest_*.xml
+
 
 # =========================
 # Operating System Files
